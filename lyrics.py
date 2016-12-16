@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 number_of_pages = 4
-band_name = "Dio"
+band_name = "Selena Gomez"
 url_name = band_name.lower().replace(" ", "-")
 
 with open("{}_lyrics.txt", "w") as outfile:
