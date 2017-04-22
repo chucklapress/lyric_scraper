@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-number_of_pages = 6
+number_of_pages = 1
 band_name = "Black Sabbath"
 url_name = band_name.lower().replace(" ", "-")
 
